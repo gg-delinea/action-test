@@ -1,0 +1,2 @@
+name: 'Delinea DSV Github Action'
+description: 'DSV integration with Github Actions that allows users to safely retrive secrets from their DSV Vault'
