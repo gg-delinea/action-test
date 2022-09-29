@@ -19,8 +19,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
-      - id: dsv
-        uses: delineaxpm/dsv-github-action@v1 # renovate: tag=v1
+      - name: dsv-github-action
+        uses: DelineaXPM/dsv-github-action@v1.0.4
+        # uses: delineaxpm/dsv-github-action@main # renovate: tag=v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
